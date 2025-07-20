@@ -82,9 +82,9 @@ def main():
         bot = commands.Bot(command_prefix="!", intents=intents)
 
         # Get configuration from environment variables
-        DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-        GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-        ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+        DISCORD_TOKEN = os.getenv("MTM5NTYyODA4MTY5OTYyMzAwMg.Gr4btP.8R_rX4dczpMDIXuQWQitXVuhw25QIXy0pAARsw")
+        GEMINI_API_KEY = os.getenv("AIzaSyDjWvMqLf3UvrOHsP1k1NsBV2nPSXOSvQw")
+        ADMIN_ID = int(os.getenv("1380183114109947924"))
 
         # Initialize Gemini client
         gemini_client = GeminiClient(GEMINI_API_KEY)
